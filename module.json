@@ -1,0 +1,20 @@
+{
+    "name": "Webcontact",
+    "alias": "webcontact",
+    "description": "An AsgardCMS module to handle a front end contact form, capture the data and send an email.",
+    "version": "v0.1",
+    "keywords": [
+        "asgardcms",
+        "laravel",
+        "cms"
+    ],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Webcontact\\Providers\\WebcontactServiceProvider",
+        "Modules\\Webcontact\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+    ]
+}
