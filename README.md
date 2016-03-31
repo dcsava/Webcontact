@@ -26,9 +26,13 @@ This module is designed to accept front end contact form details and both store 
     b.	Copy the contents of the sample form into your view (I have no idea how to include it from the module right now) and edit as required.
 
 2.	Email details are taken from the .env file so the following need to be added.
+    
     MAIL_CONTACT_SEND_MAIL=true
+    
     MAIL_CONTACT_RECIPIENTS=testman@mail.com|testgirl@mail.com
+    
     MAIL_CONTACT_SUBJECT=Sample subject 
+    
     MAIL_CONTACT_THANKYOU=Your email has been successfully sent thank you for contacting us.
 
     a.	Recipients can be separated by | so that multiple can receive an email.
